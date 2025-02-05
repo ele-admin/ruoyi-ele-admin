@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      if (navigator.userAgent.includes('WebKit')) {
+        document.documentElement.classList.add('is-webkit');
+      }
+    </script>
+    <title>RuoYi Ele Admin</title>
+    <style>
+      .ele-admin-loading {
+        width: 28px;
+        height: 28px;
+        display: grid;
+        grid-gap: 8px;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        transform: rotate(45deg);
+        animation: loadingRotate 1.2s infinite linear;
+        position: fixed;
+        top: calc(50% - 14px);
+        left: calc(50% - 14px);
+      }
+
+      .ele-admin-loading > i {
+        border-radius: 50%;
+        background: #1677ff;
+      }
+
+      .ele-admin-loading > i:nth-child(2) {
+        opacity: 0.7;
+      }
+
+      .ele-admin-loading > i:nth-child(3) {
+        opacity: 0.5;
+      }
+
+      .ele-admin-loading > i:nth-child(4) {
+        opacity: 0.3;
+      }
+
+      @keyframes loadingRotate {
+        to {
+          transform: rotate(405deg);
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-B6yCc2m_.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-B9KUM4ZE.css">
+  </head>
+  <body>
+    <div id="app">
+      <div class="ele-admin-loading">
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+      </div>
+    </div>
+  </body>
+</html>
