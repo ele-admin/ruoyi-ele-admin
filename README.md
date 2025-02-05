@@ -25,26 +25,6 @@
 - 登录账号：admin
 - 登录密码：admin123
 
-## 🔨安装运行
-
-```bash
-# 安装依赖
-npm install --registry=https://registry.npmmirror.com
-
-# 运行项目
-npm run dev
-```
-
-运行成功后在浏览器地址栏输入 `http://localhost:5173` 访问。
-
-默认使用 RuoYi 线上演示接口，可下载 [RuoYi 后端](https://gitee.com/y_project/RuoYi-Vue) 并运行后，在 `.env.development` 文件中将接口地址改为本地后端接口：
-
-```bash
-# 开发环境接口地址
-#VITE_API_URL=https://vue.ruoyi.vip/prod-api
-VITE_API_URL=http://localhost:8080
-```
-
 ## 💻系统截图
 
 <table align="center" cellspacing="0" cellpadding="0">
